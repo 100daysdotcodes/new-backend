@@ -1,0 +1,23 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*.html
+
+# Ignore specific directories:
+node_modules
+public
+logs
+tmp
+
+# Ignore all markdown files in a specific directory:
+docs/**/*.md
+
+# Ignore configuration files:
+*.config.js
+
+# Ignore environment variable files:
+.env
+.env.local
+.env.*.local
